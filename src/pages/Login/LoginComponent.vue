@@ -5,6 +5,19 @@
                <header>
                    <h1>Login do Sistema</h1>
                </header>
+               <div class="form">
+                   <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+                        <button type="submit" class="btn btn-primary" @click="login">Entrar</button>
+                    </form>
+               </div>
            </div>
        </div>
     </div>
@@ -29,6 +42,7 @@ export default {
 .login {
     display: flex;
     width: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: #e4e4e4;
@@ -36,12 +50,12 @@ export default {
 }
 
 .content-login {
-    margin-top: 5%;
     width: 400px;
     height: 450px;
     background: #82ACFA;
     border-radius: 7px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -56,5 +70,14 @@ header {
 h1 {
     color: white;
     font-size: 28px;
+}
+
+.form{
+    width: 70%;
+    margin-top: 15%;
+}
+
+.form label {
+    color: white;
 }
 </style>
