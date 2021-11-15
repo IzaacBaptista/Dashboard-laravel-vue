@@ -1,5 +1,7 @@
 <template>
-    <p>Home do nosso Sistema</p>
+    <div class="App">
+        <p>Home do nosso Sistema</p>
+    </div>
 </template>
 
 <script>
