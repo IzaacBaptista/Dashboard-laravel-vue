@@ -31,10 +31,12 @@ export default {
     width: 100%;
     justify-content: center;
     align-items: center;
+    background: #e4e4e4;
+
 }
 
 .content-login {
-    margin-top: 8%;
+    margin-top: 5%;
     width: 400px;
     height: 450px;
     background: #82ACFA;
@@ -53,5 +55,6 @@ header {
 
 h1 {
     color: white;
+    font-size: 28px;
 }
 </style>

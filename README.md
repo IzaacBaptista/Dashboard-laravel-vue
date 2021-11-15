@@ -37,3 +37,7 @@
 ### Instalando Sass
 
 `npm i sass`
+
+### Instalando Bootstrap
+
+`npm install bootstrap`
