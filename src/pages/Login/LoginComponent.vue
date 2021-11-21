@@ -15,7 +15,7 @@
                             <label for="exampleInputPassword1">Senha</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                         </div>
-                        <button type="submit" class="btn btn-primary" @click="login">Entrar</button>
+                        <button type="submit" class="btn btn-primary" @click.prevent="login">Entrar</button>
                     </form>
                </div>
            </div>
@@ -25,7 +25,18 @@
 
 <script>
 export default {
+    name: 'LoginComponent',
 
+    data(){
+        return {
+
+        }
+    },
+    methods: {
+        login(){
+            this.$router.push({name: 'home'});
+        }
+    }
 }
 </script>
 
