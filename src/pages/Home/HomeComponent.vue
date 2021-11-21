@@ -1,12 +1,15 @@
 <template>
-    <div class="App">
-        <p>Home do nosso Sistema</p>
-    </div>
+    <DashboardComponent />
 </template>
 
 <script>
-export default {
+import DashboardComponent from '../Dashboard/DashboardComponent.vue';
 
+export default {
+    components: {
+        DashboardComponent,
+
+    }
 }
 </script>
 
