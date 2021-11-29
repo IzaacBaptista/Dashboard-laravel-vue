@@ -1,12 +1,20 @@
 <template>
     <div class="main">
         <div class="sidebar">
-
+dd
         </div>
 
         <div class="content-right">
 
-        </div>
+            <div class="navbar">
+                b
+            </div>
+
+            <div class="pages">
+                a
+            </div>
+dd
+        </div>dd
     </div>
 </template>
 
@@ -36,8 +44,19 @@ export default {
     height: 42.7rem;
     margin-top: -50%;
     margin-left: 13.7%;
-    background-color: red;
+    /* background-color: red; */
 }
 
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+}
+
+.pages {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
 
 </style>
