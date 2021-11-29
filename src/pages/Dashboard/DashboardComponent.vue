@@ -22,7 +22,7 @@ export default {
 
 .main {
     width: 100%;
-    height: 103vh;
+    height: 100vh;
 }
 
 .sidebar {
@@ -32,8 +32,8 @@ export default {
 }
 
 .content-right {
-    /* width: calc(100% - 220px); */
-    height: 105vh;
+    width: calc(100% - 220px);
+    height: 42.7rem;
     margin-top: -50%;
     margin-left: 13.7%;
     background-color: red;
