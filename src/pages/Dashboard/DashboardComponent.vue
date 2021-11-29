@@ -3,6 +3,7 @@
         <div class="sidebar">
 
         </div>
+
         <div class="content-right">
 
         </div>
@@ -21,18 +22,20 @@ export default {
 
 .main {
     width: 100%;
-    height: 100vh;
+    height: 103vh;
 }
 
 .sidebar {
     width: 220px;
-    height: 10vh;
+    height: 100vh;
     background-color:#82ACFA;
 }
 
 .content-right {
-    width: calc(100% - 220px);
-    height: 100vh;
+    /* width: calc(100% - 220px); */
+    height: 105vh;
+    margin-top: -50%;
+    margin-left: 13.7%;
     background-color: red;
 }
 
